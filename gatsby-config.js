@@ -7,32 +7,24 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `Marcus N. Hill's Blog`,
+    description: `Code, food, travel, life`,
     copyrights: '',
-    author: `@panr`,
+    author: `@marcusnhill`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'hello friend',
+    logoText: 'nerdsniper',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
     menuMoreText: 'Show more',
     mainMenu: [
       {
-        title: 'About',
+        title: 'About Me',
         path: '/about',
-      },
-      {
-        title: 'Showcase',
-        path: '/showcase',
-      },
-      {
-        title: 'Example',
-        path: '/example',
-      },
+      }
     ],
   },
   plugins: [
@@ -91,6 +83,7 @@ module.exports = {
               noIframeBorder: true,
             },
           },
+          { resolve: `gatsby-remark-relative-images` },
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -108,15 +101,38 @@ module.exports = {
               noInlineHighlight: false,
             },
           },
+          {
+            resolve: 'gatsby-remark-emojis',
+            options: {
+              // Deactivate the plugin globally (default: true)
+              active: true,
+              // Add a custom css class
+              class: 'emoji-icon',
+              // In order to avoid pattern mismatch you can specify
+              // an escape character which will be prepended to the
+              // actual pattern (e.g. `#:poop:`).
+              escapeCharacter: '', // (default: '')
+              // Select the size (available size: 16, 24, 32, 64)
+              size: 64,
+              // Add custom styles
+              styles: {
+                display: 'inline',
+                margin: '0',
+                'margin-top': '1px',
+                position: 'relative',
+                top: '5px',
+                width: '25px'
+              }
+            }
+          }
         ],
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-hello-friend`,
-        short_name: `hello-friend`,
-        start_url: `/`,
+        name: `Marcus N Hill's Blog`,
+        short_name: `Marcus's blog`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
         display: `minimal-ui`,
