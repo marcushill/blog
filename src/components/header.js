@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import { Link } from './agnostic-link'
 import { Helmet } from 'react-helmet'
 
 import Menu from './menu'

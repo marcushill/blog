@@ -24,6 +24,14 @@ module.exports = {
       {
         title: 'About Me',
         path: '/about',
+      },
+      {
+        title: 'Github',
+        path: 'https://github.com/marcushill/',
+      }, 
+      {
+        title: 'LinkedIn',
+        path: 'https://www.linkedin.com/in/marcushill12/',
       }
     ],
   },
