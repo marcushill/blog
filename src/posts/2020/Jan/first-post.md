@@ -2,7 +2,6 @@
 title: "First Posts"
 path: "/2020/Jan/first-post"
 tags: ["Meta"]
-featuredImage: "../../../assets/images/default.jpg"
 date: 2020-01-07
 ---
 

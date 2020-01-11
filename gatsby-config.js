@@ -25,7 +25,10 @@ module.exports = {
         title: 'About Me',
         path: '/about',
       },
-      
+      {
+        title: 'Contact Me',
+        path: '/contact',
+      },
     ],
   },
   plugins: [
