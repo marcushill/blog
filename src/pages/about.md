@@ -62,3 +62,4 @@ And before that, I was a student at the University of Alabama where I did a B.S.
 - My occasional insomnia sometimes results in my coworkers receiving baked goods the next morning. 
 - Some day, I'd like to publish a novel.
 
+My latest resume can generally be found [**here**](../files/resume.pdf).

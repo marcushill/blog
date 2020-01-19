@@ -44,6 +44,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `files`,
+        path: `${__dirname}/src/files`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `posts`,
         path: `${__dirname}/src/posts`,
       },
@@ -80,6 +87,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          'gatsby-remark-copy-linked-files',
           {
             resolve: 'gatsby-remark-embed-video',
             options: {

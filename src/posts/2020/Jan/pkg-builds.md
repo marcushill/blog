@@ -1,7 +1,7 @@
 ---
 title: "Building AUR Packages"
 path: "/2020/Jan/joplin-pkgbuild"
-tags: ["Programming", "Today I Learned"]
+tags: ["Programming", "Today I Learned", "Linux"]
 date: 2020-01-10
 ---
 
