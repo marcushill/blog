@@ -7,7 +7,7 @@ date: 2020-01-09
 
 # About the blog 
 
-I was truly inspired by the about page on [Devon's blog](https://devonzuegel.com). She's striving for relative frequent, short, incredibly informal updates and I think I'll do the same. I'll also probably talk about things besides just tech (like food, lot's of food), but I'll be sure the segregate topics with tags.
+I was truly inspired by the about page on [Devon's blog](https://devonzuegel.com). She's striving for relative frequent, short, incredibly informal updates and I think I'll do the same. I'll also probably talk about things besides just tech (like food, lots of food), but I'll be sure the segregate topics with tags.
 
 # Who am I?
 
